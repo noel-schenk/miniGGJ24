@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.Toucher {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+
+.TouchMe {
+  animation: shaking 0.25s linear infinite;
+}
+
+@keyframes shaking {
+  0% { transform: translateX(0) translateY(0) }
+  25% { transform: translateX(5px) translateY(5px) }
+  50% { transform: translateX(-5px) translateY(-5px) }
+  75% { transform: translateX(5px) translateY(5px) }
+  100% { transform: translateX(0) translateY(0) }
+ }
