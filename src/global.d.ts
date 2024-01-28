@@ -5,3 +5,6 @@ declare namespace JSX {
     "a-entity": any;
   }
 }
+
+declare module "threex";
+declare module "three/examples/jsm/loaders/GLTFLoader";
