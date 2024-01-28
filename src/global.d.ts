@@ -8,3 +8,4 @@ declare namespace JSX {
 
 declare module "threex";
 declare module "three/examples/jsm/loaders/GLTFLoader";
+declare module "canvas-confetti";
